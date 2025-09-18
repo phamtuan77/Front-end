@@ -53,7 +53,7 @@ const EventSurveys = () => {
 
       {loading && <p>Đang tải...</p>}
       {error && <p style={{ color: "red" }}>Lỗi: {error}</p>}
-      {!loading && surveys.length === 0 && <p>Không có khảo sát nào.</p>}
+      {!loading && surveys.length === 0 && <p></p>}
 
       {surveys.length > 0 && (
         <ul style={{ listStyle: "none", padding: 0 }}>

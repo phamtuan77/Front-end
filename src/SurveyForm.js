@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 
 const SurveyForm = ({ onCreated }) => {
-  const [userId, setUserId] = useState(3); // path param
-  const [eventId, setEventId] = useState(1);
+
+
+  const [userId, setUserId] = useState("");
+  const [eventId, setEventId] = useState("");
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [loading, setLoading] = useState(false);

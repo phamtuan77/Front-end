@@ -72,7 +72,7 @@ function OperatorTickets() {
       )}
 
       {tickets.length === 0 && !loading && (
-        <p>Không có vé nào để hiển thị.</p>
+        <p></p>
       )}
     </div>
   );

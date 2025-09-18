@@ -66,7 +66,7 @@ function App() {
           boxShadow: "0 2px 6px rgba(0,0,0,0.1)",
         }}
       >
-        Ứng dụng Quản lý Sự kiện
+        Phầm mềm quản lý sự kiện
       </header>
 
       {/* Menu */}
@@ -77,8 +77,7 @@ function App() {
           padding: "15px 20px",
           background: "white",
           borderBottom: "1px solid #e5e7eb",
-          flexWrap: "wrap",
-        }}
+          flexWrap: "wrap",}}
       >
         {tabs.map((tab) => (
           <button
@@ -146,7 +145,7 @@ function App() {
 
         {activeTab === "checkin" && (
           <div style={cardStyle}>
-            <h2 style={titleStyle}>Check-in Staff</h2>
+            <h2 style={titleStyle}>Kiểm tra vé</h2>
             <StaffCheckIn />
           </div>
         )}
@@ -154,11 +153,11 @@ function App() {
         {activeTab === "sponsor" && (
           <div>
             <div style={cardStyle}>
-              <h2 style={titleStyle}>Check-in Sponsor</h2>
+              <h2 style={titleStyle}>Quét qr code khách ghé</h2>
               <SponsorCheckIn />
             </div>
             <div style={cardStyle}>
-              <h2 style={titleStyle}>Khách của Sponsor</h2>
+              <h2 style={titleStyle}>Danh sách khách đã ghé</h2>
               <SponsorVisitor />
             </div>
           </div>
@@ -179,8 +178,7 @@ function App() {
 
         {activeTab === "operator" && (
           <div>
-            <div style={cardStyle}>
-              <h2 style={titleStyle}>Quản lý sự kiện</h2>
+            <div style={cardStyle}><h2 style={titleStyle}>Quản lý sự kiện</h2>
               <EventForm />
               <EventUpdate />
               <EventDelete />
@@ -194,7 +192,7 @@ function App() {
               <h2 style={titleStyle}>Danh sách đăng ký</h2><OperatorTickets />
             </div>
             <div style={cardStyle}>
-              <h2 style={titleStyle}>Báo cáo & Thống kê</h2>
+              <h2 style={titleStyle}>Thống kê</h2>
               <div style={{ marginBottom: "10px" }}>
                 <label>
                   Event ID:{" "}

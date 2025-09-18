@@ -60,7 +60,7 @@ function SponsorVisitors() {
           </tbody>
         </table>
       ) : (
-        <p>Chưa có visitor nào hoặc chưa tìm được.</p>
+        <p></p>
       )}
     </div>
   );

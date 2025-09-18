@@ -38,7 +38,7 @@ const OperatorSurveyResults = () => {
 
   return (
     <div style={{ border: "1px solid #ccc", padding: "20px", borderRadius: "8px", marginTop: "10px" }}>
-      <h4>Xem kết quả khảo sát theo Survey</h4>
+      <h4>Xem kết quả khảo sát</h4>
       <div style={{ marginBottom: "10px" }}>
         <label>
           Operator ID:{" "}

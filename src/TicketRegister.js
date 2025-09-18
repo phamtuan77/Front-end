@@ -47,6 +47,7 @@ function TicketRegister() {
           <p><strong>Ticket ID:</strong> {result.ticket_id}</p>
           <p><strong>Event ID:</strong> {result.event_id}</p>
           <p><strong>Owner ID:</strong> {result.owner_id}</p>
+          <p><strong>Giá vé:</strong> {result.gia_ve}</p>
           <p><strong>Trạng thái:</strong> {result.trang_thai}</p>
           <p><strong>Đã thanh toán:</strong> {result.da_thanh_toan ? "Có" : "Chưa"}</p>
           <p><strong>QR Code:</strong> {result.qr_code || "Chưa có"}</p>
